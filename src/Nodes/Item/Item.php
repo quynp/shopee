@@ -19,6 +19,17 @@ class Item extends NodeAbstract
     }
 
     /**
+     * Use this call to update a product item.
+     *
+     * @param array|Parameters\Update $parameters
+     * @return ResponseData
+     */
+    public function update($parameters = []): ResponseData
+    {
+        return $this->post('/api/v1/item/update', $parameters);
+    }
+
+    /**
      * Use this call to add product item images.
      *
      * @param array|Parameters\AddItemImg $parameters

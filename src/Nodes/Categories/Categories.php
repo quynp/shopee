@@ -17,4 +17,9 @@ class Categories extends NodeAbstract
     {
         return $this->post('/api/v1/shop_category/add', $parameters);
     }
+
+    public function getlist($parameters = []): ResponseData
+    {
+        return $this->post('/api/v1/shop_categorys/get', $parameters);
+    }
 }

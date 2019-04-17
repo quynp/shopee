@@ -1,6 +1,11 @@
 # shopee php by minchao - Edited by Quy Nguyen
 # Update package
-* Categories
+* Categories get list
+* Categories add new
+* Update item all attributes
+* Update Logistics
+
+
 
 This is a [Shopee Partner API](https://partner.shopeemobile.com/docs/) Client for PHP.
 

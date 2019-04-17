@@ -53,6 +53,17 @@ class Logistics extends NodeAbstract
     }
 
     /**
+     * Use this call to update supported Logistic Channel.
+     *
+     * @param array|RequestParametersInterface $parameters
+     * @return ResponseData
+     */
+    public function updateLogistics($parameters = []): ResponseData
+    {
+        return $this->post('/api/v1/logistics/channel/update', $parameters);
+    }
+
+    /**
      * Use this call to get the logistics tracking information of an order.
      *
      * @param array|RequestParametersInterface $parameters
