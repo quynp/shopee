@@ -1,9 +1,6 @@
-# shopee-php
-
-[![Build Status](https://travis-ci.org/minchao/shopee-php.svg?branch=master)](https://travis-ci.org/minchao/shopee-php)
-[![Latest Stable Version](https://poser.pugx.org/minchao/shopee-php/v/stable)](https://packagist.org/packages/minchao/shopee-php)
-[![Latest Unstable Version](https://poser.pugx.org/minchao/shopee-php/v/unstable)](https://packagist.org/packages/minchao/shopee-php)
-[![composer.lock](https://poser.pugx.org/minchao/shopee-php/composerlock)](https://packagist.org/packages/minchao/shopee-php)
+# shopee php by minchao - Edited by Quy Nguyen
+# Update package
+* Categories
 
 This is a [Shopee Partner API](https://partner.shopeemobile.com/docs/) Client for PHP.
 
@@ -18,7 +15,7 @@ This is a [Shopee Partner API](https://partner.shopeemobile.com/docs/) Client fo
 Execute the following command to get the package:
 
 ```
-$ composer require minchao/shopee-php
+$ composer require quynp/shopee
 ```
 
 ## Usage
