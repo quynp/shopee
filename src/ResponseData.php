@@ -17,7 +17,7 @@ class ResponseData
     public function __construct(ResponseInterface $response)
     {
         $json = $response->getBody()->getContents();
-        $data = json_decode($json, true);
+        $data = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
 
         $this->response = $response;
         $this->data = $data;
